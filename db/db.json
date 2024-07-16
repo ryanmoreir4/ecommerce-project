@@ -1,0 +1,22 @@
+{
+    "usuários": [
+        {
+            "id": "1",
+            "name": "Claudio Castro",
+            "email": "claudiocastro@gmail.com",
+            "password": "12345"
+        }
+
+    ], 
+    
+    "produtos": [
+        {
+            "id": "1",
+            "name": "Teclado mecânico Razer",
+            "description": "Teclado mecânico 75%, 106 teclas, switch gatteron yellow",
+            "stock": "24",
+            "image": "img/teclado"
+        }
+
+    ]
+}
