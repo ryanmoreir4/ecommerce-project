@@ -1,28 +1,26 @@
 {
-    "usuários": [
-        {
-            "id": "1",
-            "name": "Claudio Castro",
-            "email": "claudiocastro@gmail.com",
-            "password": "12345"
-        },
-        {
-            "id": "2",
-            "name": "João Victor Assis",
-            "email": "joaovictor@gmail.com",
-            "password": "54321"
-        }
+  "usuários": [
+    {
+      "id": "1",
+      "name": "Claudio Castro",
+      "email": "claudiocastro@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "2",
+      "name": "João Victor Assis",
+      "email": "joaovictor@gmail.com",
+      "password": "54321"
+    }
+  ],
 
-    ], 
-    
-    "produtos": [
-        {
-            "id": "1",
-            "name": "Teclado mecânico Razer",
-            "description": "Teclado mecânico 75%, 106 teclas, switch gatteron yellow",
-            "stock": "24",
-            "image": "img/teclado"
-        }
-
-    ]
+  "produtos": [
+    {
+      "id": "1",
+      "name": "Macbook Air M3",
+      "description": "CPU de 8 núcleos; GPU de 8 núcleos; Memória unificada de 8 GB; SSD de 256 GB nota de rodapé ",
+      "stock": "24",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-midnight-select-202402?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1708367688034"
+    }
+  ]
 }
