@@ -1,29 +1,151 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Principal</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="logo">
-            <strong style="font-size: 30px; color: white;">LOGOTIPO</strong>
-        </div>
-        <div class="search">
-            <form action="" method="post" role="search">
-                <input type="text" name="Buscar" id="buscar" aria-label="Buscar">
-                <button type="button" class="btn-search">
-                    <box-icon name='search' color='#ffffff' ></box-icon>
-                </button>
-            </form>
-        </div>
+      <div class="logo">
+        <strong style="font-size: 30px; color: white">LOGOTIPO</strong>
+      </div>
+      <div class="search">
+        <form role="search" autocomplete="off">
+          <input type="text" name="Buscar" placeholder="Buscar" id="buscar" />
+          <button type="button" class="btn-search">
+            <i class="bx bx-search" style="color: #ffffff"></i>
+          </button>
+        </form>
+      </div>
+      <button type="button" class="btn-cart">
+        <img
+          class="img-cart"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAddJREFUWEftljsyBVEQhr9bhVUIkJBIbACJ1BZIyKyAQrECGQmWIJWwAomExKPKKlDF/dWM6jn3njmvqUtwO5lg5nR/038/To9/Zr1/xsMYKKSIm6F958Al8BJy0uV7F+hriPMD4LDLoG2+YoB0fhO4GAVUm2Qzfbk2KohbYPUvgGxMAd30M6OnbHYU9RRq+3OTpZHUUghopcpSnTlBdWmvgMrht5NDQAr+bGTrEqb21ajPGCDNpq4zY39M2VF9/lgMkJsltX/psFT31s3SqM1YIFvcAtJcyjWBqAxqa3RvLJBb3CUjwJZAQ64UyVzZSkaAbZIBP7EZEpB0l3Qy/Zkmd2otuXINxE8BcrOUs9+sXENrMRXIOszZb/Y2MfSHUoFK9puVa6CYU+eQbfHc/RZ1LjVDAsvdb3bae8dGDlDpfvPKlTqHrGwl+611huVmqJZuOXF/6LrRehUuAUpkifu8BOi0WrJPwA5w7Qm5BpwAc9Wk325DywWya0T+H4EFT6AHYN68a53wuUC7wJEJ8gFMeYDegUnzbg849mUpF2gRuOs7nqgcnwE+KSTtVvXdJ7AE3HcNJH+CWgfeQp1T3RSmgas2mJI5FNcyGV/lSpYRKu7IGCiUp29V7VcljlPI2AAAAABJRU5ErkJggg=="
+        />
+      </button>
     </header>
-    
+    <aside class="aside">
+      <div class="aside-menu">
+        <img
+          style="width: 25px; height: 25px"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAATtJREFUWEft19ERwiAMBuB0E93ETdRJ1El0E91EnUSJJ16oSP5Aelfv6KsxfA0EykAze4aZeaiDtBkpVWhBRGstQePvdyK6ENEt5imBziF41Tgg8nfGLBHQA8nmFPMpTKlCErR3GlimkTnNoCm6Ub7wf4LkoubyHhyn7Rg6a/POdyKiLbKoucMYFR8vlMRwbsYw6vVoa2MXguTia0WNMUl1EBDHeKFUDAryQEEYC6gFBWOsoBqUCVMDsqDMmFoQgho3wlc3/drTtLYv7YVy0OTEDp0pjwUY01KhCM2eRyOQ6aVNwZlydZB2nvYK9QpN0WV8fbqK0prGMAUrbc9XGd4s45cg+s2VpPUE5dZb8jWoLUjvnVqOx7dRxnxupAhmClA1pGp+M28ZD9hmiBcInQk4rnVRwwOhgbMDPQEUMVEligWu0wAAAABJRU5ErkJggg=="
+        />
+        <h2>FILTROS</h2>
+      </div>
+      <div class="aside-filter">
+        <h3>Categoria</h3>
+        <div class="checkbox">
+          <label for="checkbox"><input type="checkbox" />Macbook</label>
+        </div>
+        <div class="checkbox">
+          <label for="checkbox"><input type="checkbox" />Celulares</label>
+        </div>
+        <div class="checkbox">
+          <label for="checkbox"><input type="checkbox" />Processadores</label>
+        </div>
+        <div class="checkbox">
+          <label for="checkbox"><input type="checkbox" />Mouse Gamer</label>
+        </div>
+        <div class="checkbox">
+          <label for="checkbox"><input type="checkbox" />Headsets</label>
+        </div>
+      </div>
+      <div class="aside-filter">
+        <h3>Marca</h3>
+        <div class="checkbox">
+          <label for="checkbox"><input type="checkbox" />Apple</label>
+        </div>
+        <div class="checkbox">
+          <label for="checkbox"><input type="checkbox" />Razer</label>
+        </div>
+        <div class="checkbox">
+          <label for="checkbox"><input type="checkbox" />Samsumg</label>
+        </div>
+        <div class="checkbox">
+          <label for="checkbox"><input type="checkbox" />LG</label>
+        </div>
+        <div class="checkbox">
+          <label for="checkbox"><input type="checkbox" />Oppo</label>
+        </div>
+      </div>
+      <div class="aside-filter">
+        <h3>Cores</h3>
+        <div class="color-filter">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAGdJREFUSEtjZKAxYKSx+QyjFhAMYRxB9L8eqLOBoG6Egp8MDAztDAyMjeh6cFnwnwTDYUp/MjAwctDSAgagDzAcTE0fjFpATLSPxgHBUBoNIvxBRFJRQevCjmBsEq1gtEYjGFQ0DyIALGciGT/H504AAAAASUVORK5CYII="
+          />Azul
+        </div>
+        <div class="color-filter">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAG1JREFUSEvtlTsOgEAIRJfO+zK9WtnAgbfCypjoJuMm0kHLZ+CRgLRkk+T6rQQo4SEid18jYqPZd0AXkUNV92fOUMDMYqL4FdoBLJkCDcCr4T8nKAG+9toBZVSIGKLvpyL92LFWZ/z10SitdEQnIe1EGYD1CbkAAAAASUVORK5CYII="
+          />Cinza
+        </div>
+        <div class="color-filter">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAGNJREFUSEtjZKAxYKSx+QyjFhAMYVxBVA/U2UBQN0LBTwYGhnYGBoZGdD24LPhPguEwpSBLOGhpAchsDAdT0wejFhAV7aNxQDCYRoMIbxCRVFTQvLAjGJvEKhit0QiGFM2DCAAeqBQZF7QONgAAAABJRU5ErkJggg=="
+          />Preto
+        </div>
+        <div class="color-filter">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAGlJREFUSEtjZKAxYKSx+QyjFhAMYaxBdJSBoR6os4GgboSCnwwMDO3WDAyN6HpwWfCfBMNhSn9aMzBw0NICBqAPMBxMTR+MWkA42kfjgGAYjQYRoSAiqaigbWFHyKmkyI/WaARDi+ZBBACWuCIZISdKzAAAAABJRU5ErkJggg=="
+          />Vermelho
+        </div>
+        <div class="color-filter">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAG1JREFUSEtjZKAxYKSx+QyjFhAMYexBNJmpnuE/YwNB3QgFPxkY/7cz5P5rRNeD3YJJzP9JMBym9CdD3l8OWlrAwJD3F8PB1PTBqAVERPtoHBAMpNEgIhBEJBQVNC/sCMYm8QpGazSCYUXzIAIAH2g0Gbp9NsIAAAAASUVORK5CYII="
+          />Verde
+        </div>
+      </div>
+      <div class="aside-filter">
+        <h3>Preço</h3>
+        <div class="aside-price">
+          <input
+            id="input-price"
+            type="text"
+            name="price-min"
+            placeholder="R$ Mín."
+          />
+          <hr class="border border-grey border-1 opacity-100" />
+          <input
+            id="input-price"
+            type="text"
+            name="price-max"
+            placeholder="R$ Máx."
+          />
+        </div>
+        <button class="btn-price" type="submit">CONFIRMAR</button>
+      </div>
+    </aside>
+
+    <div class="conteudo">
+      <p>OI</p>
+    </div>
+
+    <!-- <footer>
+      <p>
+        © Copyright | 2024, Todos os Direitos Reservados <br />Rua Santo
+        Agostinho, 1717 - Horto Florestal, Belo Horizonte - MG, 31035-480
+        <br />Desenvolvido por Ryan Moreira para a disciplina do curso de
+        Informática para Internet no SENAI
+      </p>
+    </footer> -->
     <script src="/assets/script/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

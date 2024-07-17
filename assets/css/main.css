@@ -1,25 +1,181 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-header{
-    width: 100vw;
-    height: 100px;
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+body {
+  background-color: #f5f5f5;
+}
+header {
+  width: 100vw;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-input{
-    display: flex;
-    width: 30vw;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
+#buscar {
+  color: rgb(75, 75, 75);
+  padding-left: 6px;
+  display: flex;
+  width: 25vw;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.btn-search {
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-cart {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-cart {
+  width: 25px;
+  height: 25px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+}
+
+form button {
+  margin-right: 6px;
+  align-self: center;
+}
+
+aside {
+  margin: 30px;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+}
+
+.aside-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.aside-menu h2 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.aside-filter {
+  margin-bottom: 20px;
+}
+
+.aside-filter h3 {
+  margin: 0;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.aside-filter .checkbox {
+  padding-left: 15px;
+  padding-bottom: 4px;
+}
+
+.color-filter {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+label input {
+  margin-right: 5px;
+}
+#input-price {
+  padding-left: 6px;
+  width: 75px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border-style: double;
+  border-color: gray;
+}
+
+hr {
+  width: 50px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.aside-filter .btn-price {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.aside-price {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 6px;
+}
+
+.conteudo aside {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.conteudo {
+  overflow: hidden;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: black;
+  color: rgb(185, 185, 185);
+  text-align: center;
+  font-size: 13px;
+  width: 100vw;
+  padding-top: 16px;
+}
+
+footer p {
+  margin: 0;
+  padding-bottom: 0;
 }
