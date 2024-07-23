@@ -81,10 +81,10 @@ form button {
 
 aside {
   margin: 30px;
-  margin-top: 0;
+  margin-top: 100px;
   width: 200px;
   height: 100vh;
-  position: fixed;
+  position: absolute;
 }
 
 .aside-menu {
@@ -120,10 +120,6 @@ aside {
   padding-left: 10px;
 }
 
-img {
-  width: 20px;
-  height: 20px;
-}
 
 label {
   transition: 0.4s;
@@ -237,10 +233,15 @@ hr {
 }
 
 .card-image {
+  align-items: center;
   padding: 20px;
   padding-bottom: 0;
-  width: 280px;
+  width: 250px;
   height: 170px;
+}
+
+.card > .card-image{
+  align-self: center;
 }
 
 .card-body {
