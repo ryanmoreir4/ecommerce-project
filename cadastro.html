@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Certifique-se de que o jQuery está sendo carregado -->
+  </head>
+  <body>
+    <div class="container">
+      <form id="registration-form">
+        <fieldset>
+          <h1>Cadastre-se</h1>
+          <div class="input-box">
+            <input
+              type="text"
+              name="name"
+              placeholder="Nome completo"
+              id="name"
+              required
+            />
+            <i class="bx bxs-user"></i>
+          </div>
+          <div class="input-box">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              id="email"
+              required
+            />
+            <i class="bx bxs-envelope"></i>
+          </div>
+          <div class="input-box">
+            <input
+              type="password"
+              name="password"
+              placeholder="Senha"
+              id="password"
+              required
+            />
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+          <div class="input-box">
+            <input
+              type="password"
+              name="confirm-password"
+              placeholder="Confirmar senha"
+              id="confirm-password"
+              required
+            />
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+          <div class="remember-me">
+            <label for="remember-me">
+              <input type="checkbox" name="remember-me" />
+              Lembrar senha
+            </label>
+          </div>
+          <input type="submit" class="btn" value="Cadastrar" />
+        </fieldset>
+      </form>
+      <div class="additional-info">
+        <p>
+          Já possui uma conta?
+          <a id="cadastre-se" href="index.html">Faça login aqui</a>
+        </p>
+      </div>
+    </div>
+    <script src="/assets/script/cadastro.js"></script>
+  </body>
+</html>

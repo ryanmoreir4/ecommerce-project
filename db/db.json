@@ -15,9 +15,26 @@
       "password": "54321",
       "confirm-password": "54321",
       "remember-me": false
+    },
+    {
+      "id": "0ec2",
+      "fullName": "Luca",
+      "age": "34",
+      "contactNumber": "2222222222222",
+      "city": "bh",
+      "email": "sla@gmail.com",
+      "password": "123456",
+      "roles": [
+        "aluno"
+      ]
+    },
+    {
+      "id": "3678",
+      "name": "Ryan Moreira",
+      "email": "ryanmoreirap@gmail.com",
+      "password": "12345"
     }
   ],
-
   "produtos": [
     {
       "id": "1",

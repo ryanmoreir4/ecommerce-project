@@ -40,84 +40,16 @@
                 <th>-</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <div class="product">
-                    <img src="/assets/images/iphone.webp" />
-                    <div class="info">
-                      <div class="name">Iphone 14 Pro Max</div>
-                      <div class="category">Smartphone</div>
-                    </div>
-                  </div>
-                </td>
-                <td>R$ 6.999,00</td>
-                <td>
-                  <div class="qty">
-                    <button><i class="bx bx-minus"></i></button>
-                    <span>1</span>
-                    <button><i class="bx bx-plus"></i></button>
-                  </div>
-                </td>
-                <td>R$ 6.999,00</td>
-                <td>
-                  <button class="remove"><i class="bx bx-x"></i></button>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="product">
-                    <img src="/assets/images/monitor.webp" />
-                    <div class="info">
-                      <div class="name">Monitor Gamer Acer</div>
-                      <div class="category">Monitor</div>
-                    </div>
-                  </div>
-                </td>
-                <td>R$ 799,00</td>
-                <td>
-                  <div class="qty">
-                    <button><i class="bx bx-minus"></i></button>
-                    <span>1</span>
-                    <button><i class="bx bx-plus"></i></button>
-                  </div>
-                </td>
-                <td>R$ 799,00</td>
-                <td>
-                  <button class="remove"><i class="bx bx-x"></i></button>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="product">
-                    <img src="/assets/images/macbook1.jpeg" />
-                    <div class="info">
-                      <div class="name">Macbook Air 2024</div>
-                      <div class="category">Macbook</div>
-                    </div>
-                  </div>
-                </td>
-                <td>R$ 12.499,00</td>
-                <td>
-                  <div class="qty">
-                    <button><i class="bx bx-minus"></i></button>
-                    <span>1</span>
-                    <button><i class="bx bx-plus"></i></button>
-                  </div>
-                </td>
-                <td>R$ 12.499,00</td>
-                <td>
-                  <button class="remove"><i class="bx bx-x"></i></button>
-                </td>
-              </tr>
-            </tbody>
+            <tbody id="cart-items"></tbody>
           </table>
         </section>
         <aside>
           <div class="box">
             <header>Resumo da compra</header>
             <div class="info">
-              <div><span>Sub-total</span><span>R$ 418</span></div>
+              <div>
+                <span>Sub-total</span><span id="subtotal">R$ 0,00</span>
+              </div>
               <div><span>Frete</span><span>Gratuito</span></div>
               <div>
                 <button>
@@ -128,7 +60,7 @@
             </div>
             <footer>
               <span>Total</span>
-              <span>R$ 418</span>
+              <span id="total">R$ 0,00</span>
             </footer>
           </div>
           <button>Finalizar Compra</button>
