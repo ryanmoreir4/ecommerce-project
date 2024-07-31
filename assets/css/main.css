@@ -26,6 +26,11 @@ header {
   padding-right: 40px;
 }
 
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
 #buscar {
   color: rgb(75, 75, 75);
   padding-left: 6px;
@@ -81,7 +86,7 @@ form button {
 
 aside {
   margin: 30px;
-  margin-top: 100px;
+  margin-top: 15px;
   width: 200px;
   height: 100vh;
   position: absolute;
@@ -168,13 +173,12 @@ hr {
 }
 
 .conteudo aside {
-  position: relative;
   padding-bottom: 100px;
 }
 
 .conteudo {
   margin-left: 300px;
-  margin-top: 20px;
+  margin-top: 120px;
   max-width: 1450px;
 }
 
@@ -183,6 +187,7 @@ hr {
   background-color: rgba(236, 236, 236, 0.411);
   border-radius: 13px;
   padding: 12px 17px;
+  max-width: 1500px;
 }
 
 #classificar-por {
@@ -252,23 +257,12 @@ footer {
   background-color: black;
   color: rgb(185, 185, 185);
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   width: 100vw;
-  padding-top: 16px;
+  padding: 16px;
 }
 
 footer p {
   margin: 0;
   padding-bottom: 0;
-}
-
-.circle-animation {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  border-radius: 50%;
-  transition: all 1s ease;
-  pointer-events: none;
-  z-index: 1000;
 }
